@@ -3,8 +3,8 @@
         "name": "M. Sayyidus S.Y.",
         "label": "Student",
         "picture": "https://sayyidyofa.github.io/images/sayyid01.jpg",
-        "email": "molly@hawaii.edu",
-        "phone": "808-333-4444",
+        "email": "sayyidyofa@gmail.com",
+        "phone": "",
         "website": "https://blog.lazydev.me",
         "summary": "I am studying for a B.S. in Computer Engineering in the Department of Computer Engineering at the Diponegoro University. I expect to graduate in Spring, 2021.",
         "location": {
@@ -28,11 +28,6 @@
                 "network": "twitter",
                 "username": "sayyidyofa",
                 "url": "http://twitter.com/sayyidyofa"
-            },
-            {
-                "network": "instagram",
-                "username": "molly",
-                "url": "http://instagram.com/changeme"
             }
         ]
     },
