@@ -26,4 +26,4 @@ This bot uses free Wolfram APPID so it can't fire more than 2000 API requests pe
 
 This bot is implemented using Flask.
  
-Source: <a href="https://github.com/sayyidyofa/WolframBot"><i class="large github icon"></i>"</a>
+Source: <a href="https://github.com/sayyidyofa/WolframBot"><i class="large github icon"></i>sayyidyofa/WolframBot</a>
