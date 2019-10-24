@@ -20,7 +20,7 @@ This bot is a team college project for Software Engineering course, it is also m
 
 Currently this bot has only one function: `/solve`. This command takes one argument that is a mathematical expression of quadratic equation. For example `/solve x^2 - y^2 + 1 = 0`. After a command is fired a request is sent to Wolfram Alpha API with a response of huge JSON containing detailed answer of question provided such as real solution, graphical plot, etc. Currently the bot will respond with 'real solution' and 'grapichal plot' for each question.
 
-
+<img class="ui center" src="../images/wolfram-screenshot.png">
 
 This bot uses free Wolfram APPID so it can't fire more than 2000 API requests per month.
 
