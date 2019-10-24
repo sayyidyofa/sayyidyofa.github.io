@@ -1,25 +1,29 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
+image: images/wolfram-bot.png
+title: Wolfram Bot 
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-10-10
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Python
+  - Wolfram API
+  - Flask
+  - LINE API
+summary: A LINE Messaging Bot that can solve mathematical problems with Wolfram Alpha API
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/wolfram-bot.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This bot is a team college project for Software Engineering course, it is also my first attempt to learn about Continous Integration and Continous Deployment and API wrapping.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Currently this bot has only one function: `/solve`. This command takes one argument that is a mathematical expression of quadratic equation. For example `/solve x^2 - y^2 + 1 = 0`. After a command is fired a request is sent to Wolfram Alpha API with a response of huge JSON containing detailed answer of question provided such as real solution, graphical plot, etc. Currently the bot will respond with 'real solution' and 'grapichal plot' for each question.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+
+
+This bot uses free Wolfram APPID so it can't fire more than 2000 API requests per month.
+
+This bot is implemented using Flask.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/sayyidyofa/WolframBot"><i class="large github icon"></i>theVacay/vacay</a>
